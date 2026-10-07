@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">Zhong Shiyu — Seek truth. Build beyond.</title>
+  <desc id="desc">A deep-space observatory in midnight blue, cyan and violet. Zhejiang University, bachelor's and master's. AI, science and the unknown.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#060a13"/><stop offset=".6" stop-color="#0b1222"/><stop offset="1" stop-color="#11102c"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="0" x2="1" y1="0" y2=".6">
+      <stop stop-color="#74f6e2"/><stop offset=".48" stop-color="#7dc9ff"/><stop offset="1" stop-color="#a799ff"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#3881b8" stop-opacity=".28"/><stop offset=".6" stop-color="#635cc9" stop-opacity=".09"/><stop offset="1" stop-color="#10172b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core">
+      <stop stop-color="#070d19"/><stop offset=".8" stop-color="#0b1527"/><stop offset="1" stop-color="#173349"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6e9bbd" stroke-opacity=".07"/>
+      <circle cx="0" cy="0" r="1" fill="#6e9bbd" opacity=".18"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <style>
+      .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+      .orbit{transform-origin:963px 240px;animation:orbit 75s linear infinite}
+      .pulse{animation:pulse 4s ease-in-out infinite}
+      @keyframes orbit{to{transform:rotate(360deg)}}
+      @keyframes pulse{50%{opacity:.35}}
+      @media(prefers-reduced-motion:reduce){.orbit,.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect width="1280" height="480" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1278" height="478" rx="15" fill="url(#grid)" stroke="#26354b"/>
+  <path d="M32 64V32H64M1216 32H1248V64M32 416V448H64M1216 448H1248V416" fill="none" stroke="#6788a5" stroke-opacity=".5"/>
+  <circle cx="963" cy="240" r="267" fill="url(#halo)"/>
+  <g fill="#96c2dc">
+    <circle cx="733" cy="81" r="1.5" opacity=".65"/><circle cx="1169" cy="110" r="1"/>
+    <circle cx="1121" cy="407" r="1.3" opacity=".65"/><circle cx="811" cy="419" r="1"/>
+    <circle cx="684" cy="340" r="1" opacity=".5"/><circle cx="1198" cy="317" r="1.5" opacity=".4"/>
+    <circle cx="602" cy="85" r="1" opacity=".4"/>
+  </g>
+  <g fill="none">
+    <circle cx="963" cy="240" r="184" stroke="#557294" stroke-opacity=".24" stroke-dasharray="2 9"/>
+    <circle cx="963" cy="240" r="158" stroke="#617596" stroke-opacity=".2"/>
+    <path d="M963 49V67M963 413V431M772 240H790M1136 240H1154" stroke="#99b7d3" stroke-opacity=".65"/>
+    <ellipse cx="963" cy="240" rx="216" ry="76" transform="rotate(-32 963 240)" stroke="url(#spectrum)" stroke-opacity=".48"/>
+    <ellipse cx="963" cy="240" rx="194" ry="100" transform="rotate(40 963 240)" stroke="#888de0" stroke-opacity=".35"/>
+    <path d="M707 240H768M1158 240H1210M963 27V46M963 434V453" stroke="#628198" stroke-opacity=".35" stroke-dasharray="3 5"/>
+  </g>
+  <g class="orbit">
+    <circle cx="963" cy="240" r="132" fill="none" stroke="url(#spectrum)" stroke-width="1.5" stroke-dasharray="285 65 40 440"/>
+    <circle cx="963" cy="108" r="4" fill="#83f6df"/>
+    <circle cx="963" cy="108" r="8" fill="#83f6df" opacity=".4" filter="url(#glow)"/>
+  </g>
+  <circle cx="963" cy="240" r="105" fill="url(#core)" stroke="#6ea1b5" stroke-opacity=".25"/>
+  <circle cx="963" cy="240" r="93" fill="none" stroke="#7cdccc" stroke-opacity=".14"/>
+  <path d="M924 218L963 196L1002 218V263L963 286L924 263Z M924 218L963 241L1002 218M963 241V286M963 196V241M924 263L1002 218M924 218L1002 263" fill="none" stroke="url(#spectrum)" stroke-width="1.2" opacity=".8"/>
+  <g fill="#9bf1e5">
+    <circle cx="963" cy="196" r="3"/><circle cx="924" cy="218" r="3"/><circle cx="1002" cy="218" r="3"/>
+    <circle cx="963" cy="241" r="4"/><circle cx="924" cy="263" r="3"/><circle cx="1002" cy="263" r="3"/><circle cx="963" cy="286" r="3"/>
+  </g>
+  <g class="mono" font-size="10" letter-spacing="2" fill="#8296b8">
+    <text x="1066" y="73">THE UNKNOWN</text><text x="779" y="399">INTELLIGENCE / ∞</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle cx="5" cy="-4" r="4" fill="#7aefd5" class="pulse"/>
+    <text x="21" y="0" class="mono" font-size="12" letter-spacing="3" fill="#9bb2c8">AN OPEN-ENDED EXPERIMENT</text>
+    <text x="0" y="102" class="sans" font-size="78" font-weight="750" letter-spacing="-3" fill="#f0f4fc">ZHONG SHIYU<tspan fill="#84eedb">.</tspan></text>
+    <text x="2" y="139" class="mono" font-size="13" letter-spacing="3" fill="#91a4bd">@ZHONGSHIYU0129</text>
+    <rect x="2" y="169" width="53" height="2" fill="url(#spectrum)"/>
+    <text x="0" y="224" class="sans" font-size="32" font-weight="500" letter-spacing="-.6" fill="#dfe8f5">Seek truth. <tspan fill="#8be6e2">Build beyond.</tspan></text>
+    <text x="2" y="264" class="mono" font-size="13" letter-spacing="2" fill="#91a4bd">AI / SCIENCE / CREATIVE TECHNOLOGY</text>
+    <rect x="1" y="310" width="410" height="36" rx="4" fill="#101d2c" stroke="#30495e"/>
+    <text x="15" y="333" class="mono" font-size="11" letter-spacing="1.1" fill="#b2c8dc">ZHEJIANG UNIVERSITY · BACHELOR'S + MASTER'S</text>
+  </g>
+  <text x="1210" y="446" text-anchor="end" class="mono" font-size="10" letter-spacing="2" fill="#7086a5">BEYOND THE OBVIOUS_</text>
+</svg>
